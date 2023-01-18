@@ -25,6 +25,8 @@
   static const int xmppLogLevel = XMPP_LOG_LEVEL_WARN;
 #endif
 
+
+
 /**
  * Seeing a return statements within an inner block
  * can sometimes be mistaken for a return point of the enclosing method.
