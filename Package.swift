@@ -67,7 +67,8 @@ let package = Package(
             name: "XMPPFrameworkSwift",
             dependencies: [
                 "XMPPFramework",
-                .product(name: "CocoaLumberjackSwift", package: "CocoaLumberjack")
+                .product(name: "CocoaLumberjackSwift", package: "CocoaLumberjack"),
+                .product(name: "SocketRocket", package: "SocketRocket")
             ],
             path: "Swift",
             exclude: [
